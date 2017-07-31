@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#323232</color>
+    <color name="colorPrimaryDark">#1D1D1D</color>
+    <color name="colorAccent">#FFFFFF</color>
+    <color name="colorDivider">#464646</color>
+    <color name="colorSwitchTrackOff">#838383</color>
+    <color name="colorGetPro">#45C61E</color>
+
+    <color name="colorButton">#30FFFFFF</color>
+    <color name="colorButtonPress">#60FFFFFF</color>
+    <color name="colorText">#B0FFFFFF</color>
+    <color name="colorTextHint">#40FFFFFF</color>
+    <color name="colorTitle">#FFFFFF</color>
+    <color name="colorSubtitle">#50FFFFFF</color>
+    <color name="colorTabs">#F9FFFFFF</color>
+    <color name="colorBack1">#20000000</color>
+
+    <color name="colorActinide">#A73434</color>
+    <!--<color name="colorAlkalineMetal">#42AE3E</color>-->
+    <!--<color name="colorAlkalineEarthMetal">#61A462</color>-->
+    <color name="colorAlkalineMetal">#D29540</color>
+    <color name="colorAlkalineEarthMetal">#DEB736</color>
+    <color name="colorHalogen">#6D6CBE</color>
+    <color name="colorLanthanide">#946060</color>
+    <color name="colorBasicMetal">#5A728A</color>
+    <color name="colorMetalloid">#2E89C2</color>
+    <color name="colorNobleGas">#9B6DBF</color>
+    <color name="colorNonmetal">#2E63C2</color>
+    <color name="colorTransitionMetal">#718E61</color>
+    <!--<color name="colorTransitionMetal">#A19268</color>-->
+    <color name="colorDefault">#000000</color>
+
+    <color name="colorBelow10">#FF0000</color>
+    <color name="color10To19">#FF3300</color>
+    <color name="color20To29">#FF5E00</color>
+    <color name="color30To39">#FF8000</color>
+    <color name="color40To49">#FFB300</color>
+    <color name="color50To59">#FFF700</color>
+    <color name="color60To69">#FFFF00</color>
+    <color name="color70To79">#C8FF00</color>
+    <color name="color80To89">#8CFF00</color>
+    <color name="colorAbove90">#48FF00</color>
+
+</resources>

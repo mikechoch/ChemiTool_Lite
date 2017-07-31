@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorPrimary">
+
+    <TextView
+        android:id="@+id/study_report_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:text="Study Report"
+        android:textColor="#FFFFFF"
+        android:paddingTop="8dp"
+        android:gravity="top|center_horizontal"/>
+
+    <TextView
+        android:id="@+id/study_report_percentage_correct"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="70dp"
+        android:textStyle="bold"
+        android:textColor="@color/colorBelow10"
+        android:paddingTop="4dp"
+        android:layout_below="@+id/study_report_title"/>
+
+    <ExpandableListView
+        android:id="@+id/correct_incorrect_expandable"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:paddingTop="12dp"
+        android:layout_below="@id/study_report_percentage_correct">
+
+    </ExpandableListView>
+
+</RelativeLayout>

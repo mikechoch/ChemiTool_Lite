@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:drawable="@drawable/x_mark">
+    <target
+        android:name="tick1"
+        android:animation="@anim/x_animation_up" />
+    <target
+        android:name="tick2"
+        android:animation="@anim/x_animation_down" />
+</animated-vector>

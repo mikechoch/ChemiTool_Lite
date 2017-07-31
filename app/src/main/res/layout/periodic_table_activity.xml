@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:id="@+id/periodic_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    android:windowEnableSplitTouch="false"
+    android:splitMotionEvents="false"
+    android:animateLayoutChanges="true"
+    tools:context="com.choch.michaeldicioccio.chemitool_lite.PeriodicTableActivity">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/periodic_scrollview"
+        android:windowEnableSplitTouch="false"
+        android:splitMotionEvents="false"
+        android:scrollbars="none">
+
+        <HorizontalScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/periodic_horizontal_scrollview"
+            android:windowEnableSplitTouch="false"
+            android:splitMotionEvents="false"
+            android:scrollbars="none">
+
+            <TableLayout
+                android:id="@+id/periodic_table"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:windowEnableSplitTouch="false"
+                android:splitMotionEvents="false"
+                android:padding="10dp"
+                android:visibility="invisible">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="8dp">
+
+                    <RelativeLayout
+                        android:layout_height="match_parent"
+                        android:layout_width="match_parent"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="@color/colorAccent"
+                        android:textStyle="bold"
+                        android:text="1"
+                        android:gravity="center"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="@color/colorAccent"
+                        android:textStyle="bold"
+                        android:text="2"
+                        android:gravity="center"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="@color/colorAccent"
+                        android:textStyle="bold"
+                        android:text="3"
+                        android:gravity="center"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="@color/colorAccent"
+                        android:textStyle="bold"
+                        android:text="4"
+                        android:gravity="center"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="@color/colorAccent"
+                        android:textStyle="bold"
+                        android:text="5"
+                        android:gravity="center"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="@color/colorAccent"
+                        android:textStyle="bold"
+                        android:text="6"
+                        android:gravity="center"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="@color/colorAccent"
+                        android:textStyle="bold"
+                        android:text="7"
+                        android:gravity="center"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="@color/colorAccent"
+                        android:textStyle="bold"
+                        android:text="8"
+                        android:gravity="center"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="@color/colorAccent"
+                        android:textStyle="bold"
+                        android:text="9"
+                        android:gravity="center"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="@color/colorAccent"
+                        android:textStyle="bold"
+                        android:text="10"
+                        android:gravity="center"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="@color/colorAccent"
+                        android:textStyle="bold"
+                        android:text="11"
+                        android:gravity="center"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="@color/colorAccent"
+                        android:textStyle="bold"
+                        android:text="12"
+                        android:gravity="center"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="@color/colorAccent"
+                        android:textStyle="bold"
+                        android:text="13"
+                        android:gravity="center"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="@color/colorAccent"
+                        android:textStyle="bold"
+                        android:text="14"
+                        android:gravity="center"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="@color/colorAccent"
+                        android:textStyle="bold"
+                        android:text="15"
+                        android:gravity="center"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="@color/colorAccent"
+                        android:textStyle="bold"
+                        android:text="16"
+                        android:gravity="center"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="@color/colorAccent"
+                        android:textStyle="bold"
+                        android:text="17"
+                        android:gravity="center"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="@color/colorAccent"
+                        android:textStyle="bold"
+                        android:text="18"
+                        android:gravity="center"/>
+
+                </TableRow>
+
+            </TableLayout>
+
+        </HorizontalScrollView>
+
+    </ScrollView>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/periodic_table_filter_fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_filter_white_36dp"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="20dp"
+        android:backgroundTint="@color/colorPrimary"
+        android:visibility="invisible"
+        app:rippleColor="@color/colorAccent"
+        app:borderWidth="0dp"
+        app:elevation="6dp"
+        app:pressedTranslationZ="12dp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/progressBackground"
+        android:visibility="visible"
+        android:background="@color/colorPrimaryDark">
+
+        <ProgressBar
+            android:id="@+id/progress_view"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:visibility="visible"
+            android:progressBackgroundTint="@color/colorAccent"/>
+
+    </RelativeLayout>
+
+</android.support.design.widget.CoordinatorLayout>

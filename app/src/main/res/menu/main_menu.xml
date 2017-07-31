@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:icon="@drawable/ic_more_vert_white_24dp"
+    tools:context=".MainActivity">
+
+    <item
+        android:id="@+id/action_search"
+        android:icon="@drawable/ic_search_white_24dp"
+        android:title="Search"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/action_periodic_table"
+        android:icon="@drawable/ic_react_white_24dp"
+        android:title="Periodic Table"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/action_settings"
+        android:icon="@drawable/ic_settings_white_18dp"
+        android:title="Settings"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/action_share_app"
+        android:icon="@drawable/ic_share_variant_white_18dp"
+        android:title="Share this app"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/action_rate_app"
+        android:icon="@drawable/ic_star_white_18dp"
+        android:title="Rate this app"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/action_upgrade_pro"
+        android:icon="@drawable/ic_trophy_white_18dp"
+        android:title="Upgrade to Pro"
+        app:showAsAction="never"/>
+
+</menu>

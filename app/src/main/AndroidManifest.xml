@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.choch.michaeldicioccio.chemitool_lite">
+
+    <application
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.choch.michaeldicioccio.chemitool_lite.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/splashScreenTheme"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <!-- Used to request banner and interstitial ads. -->
+                <uses-permission android:name="android.permission.INTERNET" />
+
+                <!-- Used to avoid sending an ad request if there is no connectivity. -->
+                <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+                <!-- Required permissions for video ads. -->
+                <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.choch.michaeldicioccio.chemitool_lite.SettingsActivity"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <activity
+            android:name="com.choch.michaeldicioccio.chemitool_lite.SearchActivity"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <activity
+            android:name="com.choch.michaeldicioccio.chemitool_lite.PeriodicTableActivity"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <activity
+            android:name="com.choch.michaeldicioccio.chemitool_lite.StudyActivity"
+            android:screenOrientation="portrait">
+        </activity>
+
+    </application>
+
+</manifest>
